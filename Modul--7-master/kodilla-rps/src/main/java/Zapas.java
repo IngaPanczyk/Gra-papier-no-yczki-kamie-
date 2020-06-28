@@ -12,14 +12,14 @@ public class GiveWinner {
         int numberOfwin = 0;
         int numberOfGames = gamesNumber.getNumberOfGames();
         int gamesCounter = 0;
-        int computerMove = computer.getRandomComputerMove();
-        int playerMove = player.getPlayerMove();
-
-        if (playerMove == 4){
-
-        }else{
 
         while (numberOfwin != numberOfGames) {
+
+            int rock = 1;
+            int paper = 2;
+            int sizors = 3;
+            int computerMove = computer.getRandomComputerMove();
+            int playerMove = player.getPlayerMove();
 
             //Remis
             if (playerMove == computerMove) {
@@ -67,7 +67,6 @@ public class GiveWinner {
 
             }
 
-        }
         }
         return "Tura zakończona";
     }

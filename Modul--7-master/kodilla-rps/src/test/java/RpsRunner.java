@@ -9,6 +9,5 @@ public class RpsRunner {
         Player player = new Player();
         Computer computer = new Computer();
         giveWinner.giveWinner(player, computer,gamesNumber);
-        System.out.print("Wygrałeś, gra zakończona!");
     }
 }
