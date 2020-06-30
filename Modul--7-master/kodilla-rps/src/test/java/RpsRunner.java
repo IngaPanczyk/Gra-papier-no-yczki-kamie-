@@ -1,4 +1,5 @@
 import java.util.Map;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class RpsRunner {
@@ -9,5 +10,6 @@ public class RpsRunner {
         Player player = new Player();
         Computer computer = new Computer();
         giveWinner.giveWinner(player, computer,gamesNumber);
+        System.out.println("!!!Gra zakończona!!!");
     }
 }

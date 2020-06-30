@@ -1,3 +1,4 @@
+/*
 import java.util.Scanner;
 
 public class GiveWinner {
@@ -70,4 +71,4 @@ public class GiveWinner {
         }
         return "Tura zakończona";
     }
-}
+}*/
